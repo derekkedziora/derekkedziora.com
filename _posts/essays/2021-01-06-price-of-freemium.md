@@ -1,6 +1,6 @@
 ---
 title: The Price of Freemium
-description: "The Freemium model shapes society in quiet yet profound ways. We should use extreme caution when using “free”products."
+description: "The Freemium model shapes society in quiet yet profound ways. We should use extreme caution when using “free” products."
 tags: politics tech
 permalink: /blog/price-of-freemium
 ---
