@@ -14,7 +14,7 @@ The vast majority of alcohol consumption, and thus profits, come from the [top d
 >
 > Or, if you prefer, 10 drinks per day.
 
-The freemium software model is based on this principle: keep a product free for most people who will only lightly use it while monetizing the top 20% or so of users. For products like GitHub, AWS, Cloudinary, etc. this is a great marketing strategy: get developers to use your products on hobby projects so that they become the ones lobbying for your product at work. 
+The freemium software model is based on this principle: keep a product free for most people who will only lightly use it while monetizing the top 20% or so of users. For products like GitHub, AWS and Cloudinary this is a great marketing strategy: get developers to use your products on hobby projects so that they become the ones lobbying for your product at work. 
 
 Things start to get weird when freemium is used with products that play on [supernormal stimuli](https://en.wikipedia.org/wiki/Supernormal_stimulus). For all of Apple’s claims to running a clean and ethical App Store, the company makes millions of dollars off of “free” games with in-app purchases, such as a [slot machines that don’t let people actually win](https://mjtsai.com/blog/2020/09/14/big-fish-casino/).
 
