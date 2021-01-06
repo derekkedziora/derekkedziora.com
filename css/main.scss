@@ -176,7 +176,8 @@ blockquote {
   border-left: 3px solid var(--light-border-color);
   margin: var(--line-height) 0;
   p {
-    font-style: italic;
+    font-size: 1.2rem;
+    line-height: 1.2;
     padding: 0 calc(1 * var(--line-height));
   }
 }
