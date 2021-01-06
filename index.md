@@ -10,7 +10,7 @@ index: true
 
 🤓&emsp;My site is an ongoing experiment in small scale blogging. Besides the tech industry, I write about books, philosophy, linguistics or anything that's on my mind.
 
-🖥&emsp;Want to see my professional writing? Check out my [portfolio](/portfolio).
+📓&emsp;Want to see my professional writing? Check out my [portfolio](/portfolio).
 
 🗣&emsp;Learning English? Head over to my [English guides](/english).
 

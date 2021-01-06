@@ -18,7 +18,6 @@ I’m a writer in tech: everything from UX writing, content strategy, marketing 
 
 🤓&emsp;Geek<br>
 🐈&emsp;Cat lover<br>
-🚲&emsp;Cyclist<br> 
 📚&emsp;Bookworm<br>
 🧘&emsp;Meditator<br> 
 🇺🇸&emsp;From the US<br>
