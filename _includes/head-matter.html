@@ -15,14 +15,14 @@
     <meta property="article:published_time" content="{{ page.date | date: '%Y-%m-%d' }}">
     {%- endif -%}
     <link rel="canonical" href="{%- if page.canonical == true -%}{{ site.url }}{{ page.canonical }}{%- else -%}{{ site.url }}{%- unless page.url == '/' -%}{{ page.url }}{%- endunless -%}{%- endif -%}">
-    <link rel="shortcut icon" href="/static/derek.png">
-    <link rel="apple-touch-icon" href="/static/derek.png"> 
+    <link rel="shortcut icon" href="https://res.cloudinary.com/derekkedziora/image/upload/v1610111368/derek_a2bdnp.png">
+    <link rel="apple-touch-icon" href="https://res.cloudinary.com/derekkedziora/image/upload/v1610111368/derek_a2bdnp.png"> 
     <meta name=viewport content="width=device-width, initial-scale=1">
     <meta property="og:locale" content="en_US">
     <meta property="og:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"/>
     <meta property="og:type" content="{% if page.og-type %}{{page.og-type}}{% else %}article{% endif %}"/>
     <meta property="og:url" content="{{ page.url | prepend: site.url }}"/>
-    <meta property="og:image" content="https://derekkedziora.com/static/derek.png"/>
+    <meta property="og:image" content="https://res.cloudinary.com/derekkedziora/image/upload/v1610111368/derek_a2bdnp.png"/>
     <meta property="og:site_name" content="{{ site.title }}">
     <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     {%- if page.updated-date -%}
@@ -31,7 +31,7 @@
     <meta name="twitter:card" content="summary"/>
     <meta name="twitter:title" content="{%- if page.title -%}{{ page.title }}{%- else -%}{{ site.title }}{%- endif -%}"/>
     <meta name="twitter:description" content="{%- if page.description -%}{{ page.description | truncate: 140 }}{%- else -%}{{ site.description | truncate: 140  }}{%- endif -%}"/>
-    <meta name="twitter:image" content="https://derekkedziora.com/static/derek.png"/>
+    <meta name="twitter:image" content="https://res.cloudinary.com/derekkedziora/image/upload/v1610111368/derek_a2bdnp.png"/>
     {%- if page.index -%}
     <meta name="msvalidate.01" content="DD422C46C600FB27874DC8A734B7E69B" />
     <meta name="msvalidate.01" content="F79BCE74986BBE2341F87E29F05E8D77" />
