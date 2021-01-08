@@ -196,6 +196,8 @@ a {
 pre {
   font-family: $mono-typeface;
   font-size: 1rem;
+  font-variant-numeric: normal;
+  hanging-punctuation: none;
   line-height: 1.2;
   overflow: scroll;
   padding: var(--line-height); 
