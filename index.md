@@ -6,9 +6,9 @@ nav: main
 index: true
 ---
 
-👋&emsp;Hey there. I’m Derek Kedziora, a UX writer and content strategist based in Kyiv, Ukraine.
+👋&emsp;Hey there. I’m Derek Kedziora, a UX writer and content strategist based in Kyiv, Ukraine. [More about me](/about)
 
-🪴&emsp;Welcome to my digital garden, a loosely organized untidy collection of writing about language, learning, tech, design, mediation practice and random tidbits.
+🪴&emsp;Welcome to my digital garden, a loosely organized collection of writing about language, learning, tech, design, meditation practice and random tidbits. [View all posts](/blog)
 
 📓&emsp;Check out my [portfolio](/portfolio) to see my professional work.
 
