@@ -97,7 +97,7 @@ If you want a specific RSS feed just for your now posts, add this to your `_conf
 {% highlight YAML %}
 feed: 
   categories: 
-    - notes 
+    - now 
 {% endhighlight %}
 
 In addition to including now posts in your regular feed, you'll get a now only feed at `/feed/now.xml`. 
