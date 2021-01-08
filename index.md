@@ -1,14 +1,14 @@
 ---
-title: "Derek Kedziora"
+title: "Derek’s Digital Garden"
 og-type: website
 layout: index
 nav: main
 index: true
 ---
 
-👋&emsp;I'm a UX writer and content strategist based in Kyiv, Ukraine.
+👋&emsp;Hey there. I’m Derek Kedziora, a UX writer and content strategist based in Kyiv, Ukraine.
 
-🌿&emsp;This is a digital garden: a slightly untidy collection of writing about language, learning, tech, design, mediation practice and random tidbits.
+🪴&emsp;Welcome to my digital garden, a loosely organized untidy collection of writing about language, learning, tech, design, mediation practice and random tidbits.
 
 📓&emsp;Check out my [portfolio](/portfolio) to see my professional work.
 
