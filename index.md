@@ -1,16 +1,18 @@
 ---
-title: "Hey there, I’m Derek"
+title: "Derek Kedziora"
 og-type: website
 layout: index
 nav: main
 index: true
 ---
 
+👋&emsp;Hey and welcome to my site.
+
 ✏️&emsp;I'm a UX writer and content strategist based in Kyiv, Ukraine.
 
-🤓&emsp;My site is an ongoing experiment in small scale blogging. Besides the tech industry, I write about books, philosophy, linguistics or anything that's on my mind.
+🌿&emsp;This is a digital garden: a slightly untidy collection of writing about language, learning, tech, design, mediation practice and random tidbits.
 
-📓&emsp;Want to see my professional writing? Check out my [portfolio](/portfolio).
+📓&emsp;Check out my [portfolio](/portfolio) to see my professional work.
 
 🗣&emsp;Learning English? Head over to my [English guides](/english).
 
