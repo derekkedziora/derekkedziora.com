@@ -5,12 +5,9 @@ permalink: /blog/random
 layout: post
 ---
 
-{%- assign i = 0 -%}
-{%- for post in site.posts -%}
-    {%- unless post.categories contains "unlisted" -%}
-      {%- assign i = i | plus: 1 -%}
-    {%- endunless -%}
-{%- endfor -%}
+{%- assign totalNumberOfPosts = site.posts | size -%}
+{%- assign NumberOfUnlistedPosts = site.categories.unlisted | size -%}
+{%- assign i = totalNumberOfPosts | minus: NumberOfUnlistedPosts -%}
 
 <script>
   const comingFromPost = document.referrer; 
@@ -33,7 +30,7 @@ layout: post
 
 <noscript>
   <h1>Javascript is Disabled</h1>
-  <p>To get to a random post, turn on javascript</p>
+  <p>To get to a random post, turn on JavaScript.</p>
 </noscript>
 
 
