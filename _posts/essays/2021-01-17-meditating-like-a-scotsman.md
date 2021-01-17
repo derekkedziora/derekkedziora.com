@@ -1,7 +1,7 @@
 ---
 title: Meditating Like a Scotsman
 description: "Another scandal in the Western Dhamma community means that we need to focus on active and engage practice rather than merely zoning and blissing out." 
-tags: 
+tags: buddhism meditation
 permalink: /blog/meditating-like-a-scotsman 
 date: 2021-01-14 11:00:00
 --- 
