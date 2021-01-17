@@ -28,7 +28,7 @@ Many Westerners come to Buddhist practice as way to induce [dissociation](https:
 > 
 > If you often feel ungrounded and spacey, that’s a telltale sign of dissociation. Bringing awareness back into your body will benefit.
 >
-> If you often feel ungrounded and spacey, that’s a telltale sign of dissociation. Bringing awareness back into your body will benefit.
+> If you go into a haze during your sit-down meditation time, that’s dissociation. Try to return to the point of focus and bring yourself back into embodiment.
 
 In other words, if you’re using meditation to self-medicate the same way someone would use drugs or alcohol, that’s not a healthy practice. And that’s the rub: even things that have great potential for good like meditation and psychedelics can become numbing agents. 
 
