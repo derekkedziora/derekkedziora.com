@@ -5,15 +5,6 @@ permalink: /blog/random
 layout: post
 ---
 
-<script>
-let theme = sessionStorage.getItem('theme');
-if (theme === "dark") {
-  document.documentElement.setAttribute('data-theme', 'dark');
-} else if (theme === "light") {
-  document.documentElement.setAttribute('data-theme', 'light');
-}
-</script>
-
 {%- assign i = 0 -%}
 {%- for post in site.posts -%}
     {%- unless post.unlisted -%}
@@ -26,7 +17,7 @@ if (theme === "dark") {
 
   const allPosts = 
     [{%- for post in site.posts -%}
-    {%- unless post.unlisted -%}
+    {%- unless post.categories contains "unlisted" -%}
       {%- assign i = i | minus: 1 -%}
       "{{ site.url }}{{ post.url }}"{%- unless i == 0 -%},{%- endunless -%}
     {%- endunless -%}
