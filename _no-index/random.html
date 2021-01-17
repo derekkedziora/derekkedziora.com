@@ -7,7 +7,7 @@ layout: post
 
 {%- assign i = 0 -%}
 {%- for post in site.posts -%}
-    {%- unless post.unlisted -%}
+    {%- unless post.categories contains "unlisted" -%}
       {%- assign i = i | plus: 1 -%}
     {%- endunless -%}
 {%- endfor -%}
