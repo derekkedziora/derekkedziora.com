@@ -365,3 +365,24 @@ nav a {
   margin: 0 0 5% 5%; 
   width: clamp(25%, 50%, 350px);
 } 
+
+.stream-article {
+  border-top: 1px solid var(--underline-color);
+  margin: 0 0 3em 0;
+}
+
+.stream-article:first-of-type {
+  border: none;
+}
+
+.stream-title {
+  font-family: $body-typeface;
+  font-size: var(--body-font-size);
+  letter-spacing: 0;
+  line-height: 1.2;
+  margin: 0 0 calc(var(--line-height) * .25) 0;
+  padding-top: 3em;
+  text-transform: none;
+}  
+
+

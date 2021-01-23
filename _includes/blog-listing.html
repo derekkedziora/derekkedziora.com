@@ -27,9 +27,16 @@
 
 {%- assign postCounter = "pastFirstNow" -%}
 
+{%- elsif post.category == "stream" -%}
+
+<p><a href="/stream#{{post.url | remove_first: "/stream/"}}" title="{{ post.title }}" class="blog-listing-link">{{ post.title }}</a><br>
+<time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%B" }} {{prettyDateOfPost}}{{ ordinalEnding }}, {{ post.date | date: "%Y" }}</time></p>
+
 {%- else -%}
 
 <p><a href="{{ post.url }}" title="{{ post.title }}" class="blog-listing-link">{{ post.title }}</a><br>
 <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%B" }} {{prettyDateOfPost}}{{ ordinalEnding }}, {{ post.date | date: "%Y" }}</time></p>
 
 {%- endif -%}
+
+

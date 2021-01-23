@@ -1,0 +1,10 @@
+
+<article class="stream-article">
+
+<h2 class="stream-title" id="{{post.url | remove_first: "/stream/"}}">{{ post.title }}</h2>
+
+{{ post.content }}
+
+<p><a href="{{post.url}}" class="internal-link"><time datetime="{{ postDate | date: '%Y-%m-%d' }}">{{ post.date | date: "%B %d, %Y" }}</time></a></p>
+
+</article>
