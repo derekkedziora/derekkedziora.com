@@ -323,7 +323,7 @@ a:hover {
 }
 
 .site-nav {
-  //border-bottom: 1px solid var(--light-border-color);
+  border-bottom: 1px solid var(--light-border-color);
   padding-bottom: calc(.3 * var(--line-height));
   display: flex;
   justify-content: flex-end;
