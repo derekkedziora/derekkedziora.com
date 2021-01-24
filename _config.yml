@@ -50,6 +50,7 @@ plugins:
 
 feed: 
   categories: 
-    - essay 
+    - english-guide
+    - essays 
     - now
     - stream 

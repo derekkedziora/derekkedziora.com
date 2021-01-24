@@ -86,6 +86,9 @@ nav {
     margin-right: 5%;
     text-decoration: none;
   }
+  .nav-current-page {
+    margin: 0 5% 0 0;
+  }
 }
 
 main {
@@ -120,7 +123,7 @@ header {
   color: var(--light-text-color);
   font-size: 1rem;
   letter-spacing: -.01em;
-  margin: calc(.25 * var(--line-height)) 0 0 0;
+  margin: 0;//calc(.25 * var(--line-height)) 0 0 0;
   padding: 0;
   time, a {
     color: var(--light-text-color);
@@ -155,7 +158,8 @@ h2, h3 {
   font-size: var(--h2-font-size);
   letter-spacing: .05em;
   line-height: 1.2;
-  margin: calc(var(--line-height) * 2) 0 calc(var(--line-height) * 1) 0;
+  margin: 0 0 calc(var(--line-height) * 1) 0;
+  padding-top: calc(var(--line-height) * 2); 
   text-transform: uppercase;
 }
 
@@ -236,6 +240,7 @@ figcaption {
     font-size: 1rem;
     letter-spacing: 0;
     margin: 0 0 calc(.5 * var(--line-height)) 0;
+    padding-top: 0;
     text-transform: none;
   }
   p, li {
@@ -317,24 +322,23 @@ a:hover {
   text-decoration-color: var(--link-color);
 }
 
-nav {
-
-}
-
-nav a {
-  font-size: 1rem;
-}
-
 .site-nav {
-  border-bottom: 1px solid var(--light-border-color);
+  //border-bottom: 1px solid var(--light-border-color);
   padding-bottom: calc(.3 * var(--line-height));
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   line-height: 1.4;
   margin-top: calc(.5 * var(--line-height));  
   max-width: $text-width;
   width: 100%;
   min-height: var(--line-height);
+  a, .nav-current-page {
+    margin: 0 0 0 5%;
+  }
+}
+
+.home-title {
+  margin-top: calc(3.5 * var(--line-height));
 }
 
 .home-link {
@@ -347,7 +351,7 @@ nav a {
 }
 
 .right-nav-links a {
-  margin: 0 5% 0 0;
+  //margin: 0 5% 0 0;
 }
 
 .right-nav-links a:last-child {

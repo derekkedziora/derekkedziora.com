@@ -1,23 +1,5 @@
 <nav class="site-nav">
-
-{% if page.url == "/" %}
-<span class="home-link"></span>
-{% else %}
-<a href="/" rel="author">Derek Kedziora</a>
-{% endif %}
-<!--
-<div class="right-nav-links">
-{% if page.url == "/about" %}
-<span class="nav-current-page" style="margin: 0 1.75em; 0 0;">About</span>
-{% else %}
-<a href="/about" title="About" style="margin: 0 1.75em; 0 0;">About</a>
-{% endif %}
--->
-{% if page.url == "/blog" %}
-<span class="nav-current-page">Writing</span>
-{% else %}
-<a href="/blog" title="Blog">Writing</a>
-{% endif %}
-</div>
-
+	<a href="/" rel="author">Derek Kedziora</a>
+	{%- if page.url == "/blog" -%}<span class="nav-current-page">Writing</span>
+	{%- else -%}<a href="/blog" title="Blog">Writing</a>{%- endif -%}
 </nav>

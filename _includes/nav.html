@@ -1,7 +1,7 @@
 {%- if page.nav == "about" -%}
 {%- unless page.url == "/about" -%}<a href="/about" title="About">About</a>{%- endunless -%}
 <a href="/now" title="Now Page">Now</a>
-{%- unless page.url == "/uses" -%}<a href="/uses" title="What I Use">Uses</a>{%- endunless -%}
+<!--{%- unless page.url == "/uses" -%}<a href="/uses" title="What I Use">Uses</a>{%- endunless -%}-->
 {%- unless page.url == "/portfolio" -%}<a href="/portfolio" title="Portfolio">Portfolio</a>{%- endunless -%}
 {%- endif -%}
 
@@ -11,8 +11,13 @@
 {%- endif -%}
 
 {%- if page.nav == "blog" -%}
-<a href="/essays" title="Essays">Essays</a>
-<a href="/stream" title="Stream">Stream</a>
-<a href="/blog/tags" title="Tags">Tags</a>
+{%- if page.url == "/blog" -%}<span class="nav-current-page">All</span>
+{%- else -%}<a href="/blog" title="Tags">All</a>{%- endif -%}
+{%- if page.url == "/essays" -%}<span class="nav-current-page">Essays</span>
+{%- else -%}<a href="/essays" title="Essays">Essays</a>{%- endif -%}
+{%- if page.url == "/stream" -%}<span class="nav-current-page">Stream</span>
+{%- else -%}<a href="/stream" title="Stream">Stream</a>{%- endif -%}
+{%- if page.url == "/blog/tags" -%}<span class="nav-current-page">Tags</span>
+{%- else -%}<a href="/blog/tags" title="Tags">Tags</a>{%- endif -%}
 <a href="/blog/random" title="Random">Random</a>
 {%- endif -%}

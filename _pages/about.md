@@ -27,9 +27,13 @@ I’m a writer in tech: everything from UX writing, content strategy, marketing 
 
 📫&emsp;{{ site.email }}
 
-👀&emsp;[RSS](/feed.xml) is best for updates.
+💬&emsp;You can find me on [LinkedIn](https://www.linkedin.com/in/derekkedziora/), [Twitter](https://twitter.com/derekkedziora) and [GitHub](https://github.com/derekkedziora). 
 
-💬&emsp;You can find me on [LinkedIn](https://www.linkedin.com/in/derekkedziora/) and [GitHub](https://github.com/derekkedziora). 
+## RSS 
+
+The [everything feed](/feed.xml) is for, well, everything. 
+
+If that’s too cluttered, you can get only [longer posts](/feed/essays.xml), [shorter posts](/feed/stream.xml), [English guides](/feed/english-guide.xml) and [now updates](/feed/now.xml) separately. 
 
 ## Colophon 
 
