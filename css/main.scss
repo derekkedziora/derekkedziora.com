@@ -367,7 +367,7 @@ a:hover {
 .about-picture {
   float: right; 
   margin: 0 0 5% 5%; 
-  width: clamp(25%, 50%, 350px);
+  width: clamp(100px, 200px, 50%);
 } 
 
 .stream-article {
