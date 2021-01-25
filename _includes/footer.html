@@ -1,6 +1,7 @@
 <footer>
 	<a href="#">Top of page</a>
 	{%- unless page.url == "/" -%}<a href="/" title="Derek Kedziora">Home</a>{%- endunless -%}
-	{%- unless page.url == "/about" -%}<a href="/about#contact" title="Contact">Contact</a>{%- endunless -%}
+	{%- unless page.url == "/about" -%}<a href="/about#contact" title="Contact">Contact</a>
 	<a href="/about#rss" title="RSS">RSS</a>
+	{%- endunless -%}
 </footer>
