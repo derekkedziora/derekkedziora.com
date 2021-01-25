@@ -1,15 +1,13 @@
 ---
 title: All Posts
-description: "The list of all of my blog posts."
+description: "All of the posts in Derek’s Digital Garden"
 og-type: website
 permalink: /blog
 nav: blog
 ---
 
 {% for post in site.posts %}
-{% unless post.categories contains "unlisted" or post.categories contains "now" %}
+{% unless post.categories contains "unlisted" %}
 {% include blog-listing.html %}
 {% endunless %}
 {% endfor %}
-
- 
