@@ -37,7 +37,7 @@ I fear I’m coming close to the Scotsman fallacy myself, but *true* Buddhist pr
 
 ## Practice that Awakens
 
-Some of the most popular forms of practice in the West are those that easily tend to zoning and blissng out ([samatha](https://en.wikipedia.org/wiki/Samatha)) or those actively aimed at dissociation([the Vipassana movement](https://en.wikipedia.org/wiki/Vipassana_movement)). Both of these *can* be part of a healthy practice, but it’s easy to get sidetracked. 
+Some of the most popular forms of practice in the West are those that easily tend to zoning and blissng out ([samatha](https://en.wikipedia.org/wiki/Samatha)) or those actively aimed at dissociation ([the Vipassana movement](https://en.wikipedia.org/wiki/Vipassana_movement)). Both of these *can* be part of a healthy practice, but it’s easy to get sidetracked. 
 
 There are traditions though that are much more attuned to being present in reality: 
 

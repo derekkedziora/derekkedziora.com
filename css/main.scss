@@ -338,7 +338,7 @@ a:hover {
 }
 
 .home-title {
-  margin-top: calc(3.5 * var(--line-height));
+  //margin-top: calc(3.5 * var(--line-height));
 }
 
 .home-link {
@@ -359,8 +359,9 @@ a:hover {
 }
 
 .nav-current-page {
+  border-bottom: 2px solid var(--extra-light-text-color);
   color: var(--extra-light-text-color);
-  text-decoration: line-through;
+  //text-decoration: underline;//line-through;
   text-decoration-color: var(--extra-light-text-color);
 }
 

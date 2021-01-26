@@ -1,5 +1,8 @@
 <nav class="site-nav">
-	<a href="/" rel="author">Derek Kedziora</a>
+	{%- if page.url == "/" -%}<span class="nav-current-page">Home</span>
+	{%- else -%}<a href="/">Home</a>{%- endif -%}
+	{%- if page.url == "/about" -%}<span class="nav-current-page">About</span>
+	{%- else -%}<a href="/about">About</a>{%- endif -%}
 	{%- if page.url == "/blog" -%}<span class="nav-current-page">Writing</span>
 	{%- else -%}<a href="/blog" title="Blog">Writing</a>{%- endif -%}
 </nav>
