@@ -1,5 +1,5 @@
 ---
-title: Starting a stream 
+title: Starting a Stream 
 category: stream
 permalink: /stream/:year/:month/:day/:title
 date: 2021-01-23 15:30 
