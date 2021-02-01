@@ -2,7 +2,6 @@
 title: RSS Feed Housekeeping
 description: "A bit of feed housekeeping"
 categories: rss-club unlisted essays
-+ unlisted: true
 permalink: /blog/feed-housekeeping
 date: 2021-02-01 20:31
 ---
