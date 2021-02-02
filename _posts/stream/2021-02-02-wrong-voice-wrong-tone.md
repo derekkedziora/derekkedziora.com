@@ -1,6 +1,6 @@
 ---
-title: Wrong Voice, Wrong Tone
-description
+title: "Wrong Voice, Wrong Tone"
+description: LinkedIn needs to find a better voice
 category: stream
 tags: ux-writing
 permalink: /stream/2021/02/02/wrong-voice-wrong-tone
