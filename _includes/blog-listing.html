@@ -29,8 +29,9 @@
 
 {%- elsif post.category == "stream" -%}
 
-<p><a href="/stream#{{post.url | remove_first: "/stream/"}}" title="{{ post.title }}" class="blog-listing-link">{{ post.title }}</a><br>
+<p><a href="{% unless post == site.categories.stream[0] %}/stream#{{post.url | remove_first: "/stream/"}}{% else %}/stream{% endunless %}" title="{{ post.title }}" class="blog-listing-link">{{ post.title }}</a><br>
 <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%B" }} {{prettyDateOfPost}}{{ ordinalEnding }}, {{ post.date | date: "%Y" }}</time></p>
+
 
 {%- else -%}
 

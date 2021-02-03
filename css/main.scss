@@ -308,7 +308,7 @@ figcaption {
     text-decoration: none;
 }
 
-.internal-link {
+.internal-link, .internal-link a {
   color: var(--light-text-color);
   font-size: 1rem;
   text-decoration: none;
@@ -390,4 +390,10 @@ a:hover {
   text-transform: none;
 }  
 
+.stream-title h2:first-of-type {
+  padding-top: 0;
+}
 
+.stream-date {
+  margin: calc(.75 * var(--line-height)) 0 0 0; 
+}

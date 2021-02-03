@@ -11,12 +11,12 @@
 {%- endif -%}
 
 {%- if page.nav == "blog" -%}
-{%- if page.url == "/blog" -%}<span class="nav-current-page">All</span>
-{%- else -%}<a href="/blog" title="Tags">All</a>{%- endif -%}
-{%- if page.url == "/essays" -%}<span class="nav-current-page">Essays</span>
-{%- else -%}<a href="/essays" title="Essays">Essays</a>{%- endif -%}
+{%- if page.url == "/blog" -%}<span class="nav-current-page">Essays</span>
+{%- else -%}<a href="/blog" title="Essays">Essays</a>{%- endif -%}
 {%- if page.url == "/stream" -%}<span class="nav-current-page">Stream</span>
 {%- else -%}<a href="/stream" title="Stream">Stream</a>{%- endif -%}
+{%- if page.url == "/blog/all" -%}<span class="nav-current-page">All</span>
+{%- else -%}<a href="/blog/all" title="Tags">All</a>{%- endif -%}
 {%- if page.url == "/blog/tags" -%}<span class="nav-current-page">Tags</span>
 {%- else -%}<a href="/blog/tags" title="Tags">Tags</a>{%- endif -%}
 <a href="/blog/random" title="Random">Random</a>
