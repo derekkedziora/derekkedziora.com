@@ -350,10 +350,6 @@ a:hover {
   text-align: right;
 }
 
-.right-nav-links a {
-  //margin: 0 5% 0 0;
-}
-
 .right-nav-links a:last-child {
   margin: 0;
 }
@@ -361,7 +357,6 @@ a:hover {
 .nav-current-page {
   border-bottom: 2px solid var(--extra-light-text-color);
   color: var(--extra-light-text-color);
-  //text-decoration: underline;//line-through;
   text-decoration-color: var(--extra-light-text-color);
 }
 
@@ -388,10 +383,6 @@ a:hover {
   margin: 0 0 calc(var(--line-height) * .25) 0;
   padding-top: 3em;
   text-transform: none;
-}  
-
-.stream-title h2:first-of-type {
-  padding-top: 0;
 }
 
 .stream-date {
