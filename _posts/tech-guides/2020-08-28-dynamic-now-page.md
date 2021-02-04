@@ -22,9 +22,9 @@ What you get automatically:
 
 This can all be done on a static site!
 
-## Step 1: Create a Now Page 
+## Create a Now Page 
 
-If you don't already have a now page, create one. 
+If you don't already have a now page, create a page that with url `/now`. 
 
 To get the content from your most recent now page, all you need is this code: 
 
@@ -42,13 +42,13 @@ To make a list of your previous now posts, add this:
 {% endfor %}{% endraw %}
 {% endhighlight %}
 
-If you skip the `offset: 1` the current now page won't be excluded from the list of previous ones. 
+The `offset: 1`  excludes the current now page from the list of previous ones. 
 
-You could stop here and it would work. The rest of the steps to make the whole thing looks nicer. 
+You’re done as far as functionality goes&thinsp;—&thinsp;everything else is cosmetic. 
 
-## Step 2: Adding a Dynamic Title 
+## Adding a dynamic title 
 
-Giving each now page a title like "Now: Enjoying the Summer" is nice touch. You can't add dynamic text directly to YAML, but there's a workaround. 
+Giving your `/now` page a dynamic title is a nice touch. You can't add dynamic text directly to YAML, but there's a workaround. 
 
 Add this variable to your now page's front matter: 
 
@@ -64,9 +64,9 @@ And put this conditional into the `<h1>` tags of the template your using for you
 {%- else -%}{{ page.title }}{%- endif -%}</h1>{% endraw %}
 {% endhighlight %}
 
-I use my post template because I have the date prominently displayed, which makes more sense than a dateless page template. 
+I use my post template because I have the date prominently displayed, which makes more sense than a dateless page template.
 
-## Step 3: Excluding from Post List 
+## Excluding from the post list 
 
 Since I post now updates every six weeks or so, they'd quickly overwhelm my main list of posts on my `/blog` page. One conditional fixes that: 
 
@@ -80,7 +80,7 @@ Since I post now updates every six weeks or so, they'd quickly overwhelm my main
 {% endfor %}{% endraw %}
 {% endhighlight %}
 
-## Step 4: Setting up RSS 
+## Setting up RSS 
 
 If you already have an RSS feed for all of your posts, you're good to go. If not, [install the feed plugin first](https://github.com/jekyll/jekyll-feed).
 
@@ -89,7 +89,7 @@ If you already have an RSS feed for all of your posts, you're good to go. If not
 
 For the Jekyll Feed plugin to recognize posts as new, the file name (excluding the date) needs to be unique. Thus `2020-06-01-now.md` and `2020-08-01-now.md` are the same post to an RSS feed.
 
-Go with something like `2020-06-01-now-june.md` and `2020-08-01-now-august.md` to avoid this. 
+Go with something like `2020-06-01-now-june-2020.md` and `2020-08-01-now-august-2020.md` to avoid this. 
 </section>
 
 If you want a specific RSS feed just for your now posts, add this to your `_config.yml` file: 
@@ -102,17 +102,9 @@ feed:
 
 In addition to including now posts in your regular feed, you'll get a now only feed at `/feed/now.xml`. 
 
-## Step 5: Make a Now Post
-
-The only difference between a now post and any other post is you need to include this in the post front matter: 
-
-{% highlight YAML %}
-category: now
-{% endhighlight %}
-
 ## See it live
 
-This works on my [now page](/now). 
+This works on my [now page](/now) ([view the source code](https://github.com/derekkedziora/derekkedziora.com/blob/main/_pages/now.md)) 
 
 My [Jekyll demo site](https://demo.derekkedziora.com) has less code, so is easier to copy from. Or have a look at the [source code](https://github.com/derekkedziora/derekkedziora.com) of this site. 
 
