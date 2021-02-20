@@ -192,8 +192,8 @@ time {
 }
 
 a {
-  color: var(--main-text-color);
-  text-decoration-color: var(--light-text-color);
+  color: var(--light-text-color); // var(--main-text-color);
+  text-decoration-color: var(--underline-color); //var(--light-text-color);
   text-decoration-thickness: 1px;
 }
 
@@ -256,6 +256,7 @@ figcaption {
 }
 
 .blog-listing-link {
+  color: var(--main-text-color);
   text-decoration: none;
 }
 
@@ -316,7 +317,6 @@ figcaption {
 
 a:hover {
   background-color: var(--box-background-color);
-  //color: rgb(209, 150, 0);
   color: var(--link-color);
   text-decoration: underline;
   text-decoration-color: var(--link-color);
