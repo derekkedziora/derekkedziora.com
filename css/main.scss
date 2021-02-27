@@ -1,8 +1,8 @@
 ---
 ---
 
-$body-typeface: "Iowan Old Style", Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", serif;
-$heading-typeface: "Iowan Old Style", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$body-typeface: Seravek, Verdana, sans-serif; //"Iowan Old Style", Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", serif;
+$heading-typeface: Seravek, Verdana, sans-serif; //"Iowan Old Style", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $mono-typeface: Menlo, Monaco, monospace;
 $text-width: 40.5em; // 650px
 
@@ -110,9 +110,9 @@ header {
   max-width: $text-width;
   width: 100%;
   h1 {
-    //border-bottom: 1px solid var(--main-text-color);
     font-size: var(--h1-font-size);
-    letter-spacing: -.01em; 
+    font-variant-numeric: normal;
+    //letter-spacing: -.01em; 
     line-height: 1.1;
     margin: calc(2 * var(--line-height)) 0 0 0;
     padding-bottom: calc(.5 * var(--line-height));
@@ -156,6 +156,7 @@ p + *, ul + *, ol + *, blockquote + *, figure + * {
 h2, h3 {
   font-family: $heading-typeface;
   font-size: var(--h2-font-size);
+  font-variant-numeric: normal;
   letter-spacing: .05em;
   line-height: 1.2;
   margin: 0 0 calc(var(--line-height) * 1) 0;
@@ -257,6 +258,7 @@ figcaption {
 
 .blog-listing-link {
   color: var(--main-text-color);
+  font-variant-numeric: normal;
   text-decoration: none;
 }
 
@@ -280,6 +282,7 @@ figcaption {
   a {
     background-color: var(--box-background-color);
     border: 1px solid var(--light-border-color);
+    flex-grow: .01;
     font-size: var(--body-font-size);
     font-variant-numeric: normal;
     margin: 1% 2% 1% 0;

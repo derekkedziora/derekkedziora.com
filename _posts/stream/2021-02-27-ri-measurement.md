@@ -1,5 +1,5 @@
 ---
-title: Human scale measurements
+title: Human Scale Measurements
 description:
 category: stream
 tags:

@@ -1,5 +1,5 @@
 ---
-title: Stream
+title: Writing
 permalink: /stream
 nav: blog
 ---
