@@ -49,7 +49,7 @@ None of this is to deny that as a mentor, manager or leader you have hard skills
 
 It’s about removing yourself as the locus of attention. Yes, you’re still there to help when needed, but that’s a rare part of your roll. Most of your time should be invested in helping mentees fix their own problems and growing independently. 
 
-I find that a well structured one-on-one has me doing less than 20% of the talking. I usually send out questions ahead of time so there’s some focus instead of a rambling stream of consciousness. When mentees go through the questions and put in some time for reflection, they come to much the same conclusion as I would have. Because *they* are doing the talking and reflecting, it’s a lesson they’ll remember rather being talked at by a corporate talking head . 
+I find that a well structured one-on-one has me doing less than 20% of the talking. I usually send out questions ahead of time so there’s some focus instead of a rambling stream of consciousness. When mentees go through the questions and put in some time for reflection, they come to much the same conclusion as I would have. Because *they* are doing the talking and reflecting, it’s a lesson they’ll remember rather being talked at by a corporate talking head. 
 
 ## The book every manager should read
 
