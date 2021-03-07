@@ -7,7 +7,7 @@ permalink: /blog/advice-monster
 date: 2021-03-07 12:19
 ---
 
-Despite the title setting off a self help gag reflext *the Coaching Habit* by Michael Stanier isn’t one of *those* books. Six months after reading it, I still reference it and use its concepts to guide my conversations at work.
+Despite the title setting off a self help gag reflex *the Coaching Habit* by Michael Stanier isn’t one of *those* books. Six months after reading it, I still reference it and use its concepts to guide my conversations at work.
 
 ## The advice monster 
 
