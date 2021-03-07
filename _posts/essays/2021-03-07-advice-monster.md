@@ -53,6 +53,6 @@ I find that a well structured one-on-one has me doing less than 20% of the talki
 
 ## The book every manager should read
 
-This is one of the few books that anyone in some sort of mentorship capacity should read. It’ll take a day to get through, but the general themes will stick with you and shape how you work. 
+This is one of the few books that anyone in any sort of mentorship capacity should read. It’ll take a day to get through, but the general themes will stick with you and shape how you work. 
 
 The workplace would be a vastly different place if managing was synonymous with empathy, active listening and empowering others to grow. We’ve all had enough half-time pep talks. 
