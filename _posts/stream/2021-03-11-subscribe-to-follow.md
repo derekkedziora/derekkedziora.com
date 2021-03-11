@@ -7,7 +7,7 @@ permalink: /stream/2021/03/11/subscribe-to-follow
 date: 2021-03-11 07:53
 ---
 
-And so Apple is following the trend and [changing the CTA on podcasts](https://jarango.com/2021/03/10/dont-subscribe-follow) from ”subscribe” to “follow”. 
+And so Apple is following the trend and [changing the CTA on podcasts](https://jarango.com/2021/03/10/dont-subscribe-follow) from “subscribe” to “follow”. 
 
 Listeners are building entire mental models around a single word. Subscribing costs money, following is free. 
 
