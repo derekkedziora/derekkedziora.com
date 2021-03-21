@@ -19,4 +19,4 @@ Also, a related [Pinboard tweet storm](https://twitter.com/Pinboard/status/13736
 > 
 > What rankles me in the Great Wheel of Online Publishing is not that we repeat the same debates about it each time, but that when these bloated platforms inevitably disappear they take entire communities and comment histories with them. And those have more value than the writing.  
 
-I‘m ok not going viral and making money at my day job.
+I’m ok not going viral and making money at my day job.
