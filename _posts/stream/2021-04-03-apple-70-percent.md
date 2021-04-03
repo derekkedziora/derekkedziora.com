@@ -17,7 +17,7 @@ This slipped out in a [recent interview](https://www.flagsmith.com/podcast/david
 
 The real issue is that overlap between people who would pay a hundred dollars a year for an email service and exclusively use Apple devices is more than 70%.
 
-DHH tries to frame this as a completely random event, ”It just so happened…”, but people who pay for quality software overwhelmingly buy Apple hardware.
+DHH tries to frame this as a completely random event, “It just so happened…”, but people who pay for quality software overwhelmingly buy Apple hardware.
 
 The groups that *hate* everything Apple like hardware hackers and gamers aren’t likely to pay for software.
 
