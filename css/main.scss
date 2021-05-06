@@ -235,7 +235,7 @@ figcaption {
   background-color: var(--box-background-color);
   border-left: 5px solid var(--light-border-color);
   font-size: 1rem;
-  margin: var(--line-height) 0;
+  margin: calc(1.25 *var(--line-height)) 0;
   padding: calc(.5 * var(--line-height));
   h2, h3 {
     font-family: $body-typeface;

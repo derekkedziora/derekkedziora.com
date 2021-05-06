@@ -6,6 +6,8 @@ permalink: /now
 layout: post
 ---
 
+{%- include now-blurb.html -%}
+
 {{ site.categories.now[0].content }}
 
 <p class="aside" markdown="1">Want a similar dynamic now page? Here's [how mine works](/blog/dynamic-now-page).</p>

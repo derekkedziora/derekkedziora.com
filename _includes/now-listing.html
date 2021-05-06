@@ -1,9 +1,11 @@
-<p class="aside">Want a similar dynamic now page? Here's <a href="/blog/dynamic-now-page">how mine works</a>.</p>
+<aside><p class="aside">Want to build your own dynamic now page? Here's <a href="/blog/dynamic-now-page">how mine works</a>.</p></aside>
 
-<h2>Other Now Updates</h2>
+<section>
+<h2>Previous Updates</h2>
 
 {% for post in site.categories.now %}
 {% unless post.url == page.url %}
 {%- include blog-listing.html -%}
 {% endunless %}
 {% endfor %}
+</section>

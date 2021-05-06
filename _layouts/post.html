@@ -27,6 +27,10 @@
 	<time datetime="{{ postDate | date: '%Y-%m-%d' }}">{{ postDate | date: "%B" }} {{prettyDateOfPost}}{{ ordinalEnding }}, {{ postDate | date: "%Y" }}</time></p>
 </header>
 
+{%- if page.categories contains "now" -%}
+	{%- include now-blurb.html -%}
+{%- endif -%}
+
 {%- if page.categories contains "english-guide" -%}
 	{%- include english_plug.html -%}
 {%- endif -%}
@@ -40,12 +44,13 @@
 {%- if page.tags[0] -%}
 	{%- include tagged.html -%}
 {%- endif -%}
-	
+
+</article>
+
 {%- if page.categories contains "now" -%}
 	{%- include now-listing.html -%}
 {%- endif -%}
 
-</article>
 </main>
 
 {%- include footer.html -%}
