@@ -2,7 +2,7 @@
 title: Writing
 description: "All of the posts in Derek’s Digital Garden"
 og-type: website
-permalink: /blog/all
+permalink: /blog
 nav: blog
 postCounter: pastFirstNow
 ---

@@ -14,7 +14,7 @@ $text-width: 40.5em; // 650px
 }
 
 html {
-  --box-background-color: hsl(240, 9%, 96%);
+  --box-background-color: hsl(240, 9%, 90%);
   --extra-light-text-color: hsl(240, 1%, 45%);
   --light-border-color: hsl(0, 0%, 90%);
   --light-text-color: hsl(240, 1%, 35%);
@@ -194,9 +194,10 @@ time {
 }
 
 a {
-  color: var(--light-text-color); // var(--main-text-color);
-  text-decoration-color: var(--underline-color); //var(--light-text-color);
-  text-decoration-thickness: 1px;
+  color: var(--link-color); //var(--main-text-color);
+  text-decoration: none;
+  //text-decoration-color: var(--main-text-color);
+  //text-decoration-thickness: 1px;
 }
 
 pre {
@@ -322,8 +323,8 @@ figcaption {
 a:hover {
   background-color: var(--box-background-color);
   color: var(--link-color);
-  text-decoration: underline;
-  text-decoration-color: var(--link-color);
+  text-decoration: none; // underline;
+  //text-decoration-color: var(--link-color);
 }
 
 .site-nav {
@@ -391,4 +392,9 @@ a:hover {
 
 .stream-date {
   margin: calc(.75 * var(--line-height)) 0 0 0; 
+}
+
+.selected-filter {
+  background-color: var(--box-background-color);
+  border: 1px solid var(light-border-color);
 }
