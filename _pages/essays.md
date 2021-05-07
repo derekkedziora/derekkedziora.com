@@ -2,7 +2,7 @@
 title: Writing
 description: "The list of all of my long-form blog posts."
 og-type: website
-permalink: /blog
+permalink: /blog/essays
 nav: blog
 ---
 

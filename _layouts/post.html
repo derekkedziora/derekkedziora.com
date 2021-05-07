@@ -23,8 +23,7 @@
 
 <header>
 	<h1 class="post-title">{%- if page.nowPage -%}{{ site.categories.now[0].title }}{%- else -%}{{ page.title }}{%- endif -%}</h1>
-	<p class="name-and-date">
-	<time datetime="{{ postDate | date: '%Y-%m-%d' }}">{{ postDate | date: "%B" }} {{prettyDateOfPost}}{{ ordinalEnding }}, {{ postDate | date: "%Y" }}</time></p>
+	<time class="name-and-date" datetime="{{ postDate | date: '%Y-%m-%d' }}">{{ postDate | date: "%B" }} {{prettyDateOfPost}}{{ ordinalEnding }}, {{ postDate | date: "%Y" }}</time>
 </header>
 
 {%- if page.categories contains "now" -%}

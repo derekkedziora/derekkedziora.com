@@ -20,18 +20,10 @@
 {%- endif -%}
 
 
-{%- if post.category == "now" and postCounter != "pastFirstNow" and page.url != "/now" -%}
+{%- if post.category == "now" and site.categories.now[0] == post. -%}
 
 <p><a href="/now" title="{{ post.title }}" class="blog-listing-link">{{ post.title }}</a><br>
 <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%B" }} {{prettyDateOfPost}}{{ ordinalEnding }}, {{ post.date | date: "%Y" }}</time></p>
-
-{%- assign postCounter = "pastFirstNow" -%}
-
-{%- elsif post.category == "stream" -%}
-
-<p><a href="{% unless post == site.categories.stream[0] %}/stream#{{post.url | remove_first: "/stream/"}}{% else %}/stream{% endunless %}" title="{{ post.title }}" class="blog-listing-link">{{ post.title }}</a><br>
-<time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%B" }} {{prettyDateOfPost}}{{ ordinalEnding }}, {{ post.date | date: "%Y" }}</time></p>
-
 
 {%- else -%}
 
