@@ -12,7 +12,7 @@ layout: post
 
 <p class="aside" markdown="1">Want a similar dynamic now page? Here's [how mine works](/blog/dynamic-now-page).</p>
 
-## Previously Now
+## Previous Updates
 
 {% for post in site.categories.now offset: 1 %}
 
