@@ -33,7 +33,7 @@ I’m a writer in tech: everything from UX writing, content strategy, marketing 
 
 The [everything feed](/feed.xml) is for, well, everything. 
 
-If that’s too cluttered, you can get only [longer posts](/feed/essays.xml), [shorter posts](/feed/notes.xml), [English guides](/feed/english-guide.xml) and [now updates](/feed/now.xml) separately. 
+If that’s too cluttered, you can get only [longer posts](/feed/essay.xml), [shorter posts](/feed/note.xml), [English guides](/feed/english-guide.xml) and [now updates](/feed/now.xml) separately. 
 
 ## Colophon 
 

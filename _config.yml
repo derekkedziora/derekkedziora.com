@@ -51,6 +51,6 @@ plugins:
 feed: 
   categories: 
     - english-guide
-    - essays 
+    - essay
     - now
-    - notes
+    - note
