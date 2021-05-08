@@ -1,9 +1,9 @@
 ---
 title: "Managers’ Island" 
 description: A productivity hack I can only dream of
-category: stream
+category: note
 tags:
-permalink: /stream/2021/02/11/managers-island
+permalink: /notes/:year/:month/:day/:title
 date: 2021-02-11 21:08
 ---
 

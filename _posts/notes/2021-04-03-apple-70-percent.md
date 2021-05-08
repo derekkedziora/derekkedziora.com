@@ -1,9 +1,9 @@
 ---
 title: People Who Buy Software 
 description:
-category: stream
+category: note
 tags: apple
-permalink: /stream/2021/04/03/apple-70-percent
+permalink: /notes/:year/:month/:day/:title
 date: 2021-04-03 16:40
 ---
 

@@ -2,8 +2,8 @@
 title: "Derek’s Digital Garden"
 og-type: website
 layout: index
-nav: main
 index: true
+display-post-type: true
 ---
 
 👋&ensp;Hey there. I’m Derek Kedziora, a UX writer and content strategist based in Kyiv, Ukraine.  

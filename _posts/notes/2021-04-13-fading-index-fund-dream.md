@@ -1,9 +1,9 @@
 ---
 title: The Fading Index Fund Dream
 description:
-category: stream
+category: note
 tags: finance 
-permalink: /stream/2021/04/13/fading-index-fund-dream
+permalink: /notes/:year/:month/:day/:title
 date: 2021-04-13 07:54
 ---
 

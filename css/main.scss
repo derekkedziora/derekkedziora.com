@@ -10,7 +10,8 @@ $text-width: 40.5em; // 650px
   --body-font-size: 1.25rem; // 20px
   --line-height: 1.75rem; // 28px
   --h1-font-size: 1.875rem; // 30px
-  --h2-font-size: 1.125rem; //20px; 
+  --h2-font-size: 1.125rem; //20px 
+  --small-font-size: 1rem; //16px
 }
 
 html {
@@ -76,11 +77,8 @@ p, li {
 }
 
 nav {
-  //display: flex;
-  //flex-wrap: wrap;
   letter-spacing: -.01em;
   line-height: 1.2;
-  //padding: calc(.45 * var(--line-height)) 0 0 0;
   a {
     color: var(--light-text-color);
     margin-right: 5%;
@@ -258,9 +256,18 @@ figcaption {
   }
 }
 
+
+.blog-listing-post-type {
+  color: var(--light-text-color);
+  font-size: .75rem;//var(--small-font-size);
+  letter-spacing: .05em;
+  text-transform: uppercase;
+}
+
 .blog-listing-link {
   color: var(--main-text-color);
   font-variant-numeric: normal;
+  font-weight: bold;
   text-decoration: none;
 }
 
@@ -331,14 +338,14 @@ a:hover {
   border-bottom: 1px solid var(--light-border-color);
   padding-bottom: calc(.3 * var(--line-height));
   display: flex;
-  justify-content: flex-end;
+  //justify-content: flex-end;
   line-height: 1.4;
   margin-top: calc(.5 * var(--line-height));  
   max-width: $text-width;
   width: 100%;
   min-height: var(--line-height);
   a, .nav-current-page {
-    margin: 0 0 0 5%;
+    margin: 0 5% 0 0;
   }
 }
 

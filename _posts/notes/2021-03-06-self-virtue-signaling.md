@@ -1,9 +1,9 @@
 ---
 title: Self Virtue Signaling 
 description:
-category: stream
+category: note
 tags:
-permalink: /stream/2021/03/06/self-virtue-singaling
+permalink: /notes/:year/:month/:day/:title
 date: 2021-03-06 14:25
 ---
 

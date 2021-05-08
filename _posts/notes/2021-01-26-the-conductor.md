@@ -1,8 +1,8 @@
 ---
 title: The Conductor
 description: "The work of a great conductor happens behind the scenes." 
-category: stream
-permalink: /stream/2021/01/26/the-conductor
+category: note
+permalink: /notes/:year/:month/:day/:title
 date: 2021-01-26 21:38
 ---
 

@@ -1,9 +1,9 @@
 ---
 title: Human Scale Measurements
 description:
-category: stream
+category: note
 tags:
-permalink: /stream/2021/02/27
+permalink: /notes/:year/:month/:day/:title
 date: 2021-02-27 11:08
 ---
 

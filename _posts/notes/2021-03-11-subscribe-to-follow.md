@@ -1,9 +1,9 @@
 ---
 title: A Mental Model Packed into a Word
 description:
-category: stream
+category: note
 tags: ux-writing
-permalink: /stream/2021/03/11/subscribe-to-follow
+permalink: /notes/:year/:month/:day/:title
 date: 2021-03-11 07:53
 ---
 

@@ -1,9 +1,9 @@
 ---
 title: Meta Politics
 description:
-category: stream
+category: note
 tags: politics
-permalink: /stream/2021/04/15/meta-politics
+permalink: /notes/:year/:month/:day/:title
 date: 2021-04-15 08:09
 ---
 

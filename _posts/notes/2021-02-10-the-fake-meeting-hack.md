@@ -1,8 +1,8 @@
 ---
 title: Fixing Culture the Wrong Way
 description: "Hacking your calendar with fake meetings won’t fix an organization-wide problem"
-category: stream
-permalink: /stream/2021/02/10/the-fake-meeting-hack
+category: note
+permalink: /notes/:year/:month/:day/:title
 date: 2021-02-10 20:07
 ---
 

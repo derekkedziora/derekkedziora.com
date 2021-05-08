@@ -1,9 +1,9 @@
 ---
 title: iOS Syncing Fixed on the M1
 description:
-category: stream
+category: note
 tags:
-permalink: /stream/2021/02/18/ios-syncing-fixed-m1
+permalink: /notes/:year/:month/:day/:title
 date: 2021-02-18 21:54
 ---
 

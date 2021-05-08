@@ -1,9 +1,9 @@
 ---
 title: Work Ethic in America
 description:
-category: stream
+category: note
 tags:
-permalink: /stream/2021/02/20/work-ethic
+permalink: /notes/:year/:month/:day/:title
 date: 2021-02-20 15:45
 ---
 

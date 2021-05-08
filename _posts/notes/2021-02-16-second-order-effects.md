@@ -1,9 +1,9 @@
 ---
 title: Ignoring Second Order Effects
 description:
-category: stream
+category: note
 tags:
-permalink: /stream/2021/02/16/second-order-effects
+permalink: /notes/:year/:month/:day/:title
 date: 2021-02-16 07:06
 ---
 

@@ -1,9 +1,9 @@
 ---
 title: "Wrong Voice, Wrong Tone"
 description: LinkedIn needs to find a better voice
-category: stream
+category: note
 tags: ux-writing
-permalink: /stream/2021/02/02/wrong-voice-wrong-tone
+permalink: /notes/:year/:month/:day/:title
 date: 2021-02-02 18:53
 ---
 

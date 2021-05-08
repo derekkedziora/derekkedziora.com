@@ -1,9 +1,9 @@
 ---
 title: The Bodies of McMansion Culture
 description:
-category: stream
+category: note
 tags:
-permalink: /stream/2021/03/09/mcmansion-bodies
+permalink: /notes/:year/:month/:day/:title
 date: 2021-03-09 07:51
 ---
 

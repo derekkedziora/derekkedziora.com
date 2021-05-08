@@ -1,3 +1,9 @@
+{% comment %}
+This section adds pretty ordinal endings (i.e. st, nd, th) to dates in
+the blog post listing.  
+{% endcomment %}
+
+
 {%- assign dateOfPost = {{post.date | date: "%d"}} -%}
 
 {%- if dateOfPost == "01" or dateOfPost == "21" or dateOfPost == "31" -%}
@@ -19,14 +25,19 @@
 	{%- assign prettyDateOfPost = dateOfPost -%}
 {%- endif -%}
 
-{%- if post.category == "now" and site.categories.now[0] == post. -%}
-{% if page.display-post-type %}<p class="blog-listing-post-type">{{ post.category }}</p>{% endif %}
-<p><a href="/now" title="{{ post.title }}" class="blog-listing-link">{{ post.title }}</a><br>
+{% comment %}
+The first conditional makes the first now post link to /now instead of the post permalink.  
+{% endcomment %}
+
+{%- if post.category == "now" and site.categories.now[0] == post -%}
+<p>{% if page.display-post-type %}<span class="blog-listing-post-type">{{ post.category }}</span><br>{% endif %}
+<a href="/now" title="{{ post.title }}" class="blog-listing-link">{{ post.title }}</a><br>
 <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%B" }} {{prettyDateOfPost}}{{ ordinalEnding }}, {{ post.date | date: "%Y" }}</time></p>
 
 {%- else -%}
-{% if page.display-post-type %}<p class="blog-listing-post-type">{{ post.category }}</p>{% endif %}
-<p><a href="{{ post.url }}" title="{{ post.title }}" class="blog-listing-link">{{ post.title }}</a><br>
+
+<p>{% if page.display-post-type %}<span class="blog-listing-post-type">{{ post.category }}</span><br>{% endif %}
+<a href="{{ post.url }}" title="{{ post.title }}" class="blog-listing-link">{{ post.title }}</a><br>
 <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%B" }} {{prettyDateOfPost}}{{ ordinalEnding }}, {{ post.date | date: "%Y" }}</time></p>
 
 {%- endif -%}

@@ -1,9 +1,9 @@
 ---
 title: Not Going Viral, Not Making Money 
 description:
-category: stream
+category: note
 tags:
-permalink: /stream/2021/03/21/not-going-viral
+permalink: /notes/:year/:month/:day/:title
 date: 2021-03-21 21:22
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Writing
-permalink: /blog/updates
+permalink: /blog/now
 nav: blog
 ---
 

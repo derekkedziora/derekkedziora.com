@@ -1,9 +1,9 @@
 ---
 title: The Basecamp Drama
 description: "Nobody came out of this one looking great."
-category: stream
+category: note
 tags: tech
-permalink: /note/2021/05/06
+permalink: /notes/:year/:month/:day/:title
 date: 2021-05-06 19:29
 ---
 

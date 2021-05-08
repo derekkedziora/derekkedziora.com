@@ -1,9 +1,9 @@
 ---
 title: Innovation, Optimization and Creativity
 description: "You can’t have all three"
-category: stream
+category: note
 tags:
-permalink: /stream/2021/02/03/innovation-optimization-creativity
+permalink: /notes/:year/:month/:day/:title
 date: 2021-02-03 21:13
 ---
 

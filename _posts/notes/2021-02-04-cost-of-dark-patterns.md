@@ -1,9 +1,9 @@
 ---
 title: The Cost of Dark Patterns 
 description: "There’s an opportunity cost to dark patterns and bad UX writing"
-category: stream
+category: note
 tags: ux-writing
-permalink: /stream/2021/02/04/cost-of-dark-patterns
+permalink: /notes/:year/:month/:day/:title
 date: 2021-02-04 20:36
 ---
 
