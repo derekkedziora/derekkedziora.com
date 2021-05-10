@@ -1,10 +1,10 @@
 ---
-title: Kobo, the Almost Competition 
+title: "Kobo, the Almost Competition" 
 description: "The Kobo reader is a “good enough” albeit not great alternative to the Kindle."
 category: note
 tags: reviews
 permalink: /notes/2021-05-10/kobo-almost-competition
-date: 2021-05-10 08:42
+date: 2021-05-10 08:48
 ---
 
 I have a visceral dislike of Amazon but wanted an e-ink reader. Kobo is the only real competition, and after a few months of using one&thinksp;—&thinksp;it does the job. 
@@ -26,4 +26,4 @@ Or to sum it up. I wish Apple made an e-ink reader (so much for my love of compe
 
 Also, Kobo isn’t sold in Ukraine. I found a used one on OLX. 
 
-My verdict: it’s good enough, but not amazing. My biggest worry when buying books is whether Kobo as a company will be around in 20 years. 
+My verdict: it’s good enough, but not amazing. My biggest worry when buying books is whether Kobo as a company will be around in 20 years.
