@@ -334,6 +334,12 @@ a:hover {
   //text-decoration-color: var(--link-color);
 }
 
+/* Add a visited link color, but exclude internal links first
+a:visited {
+  color: #EA1C00;
+}
+*/ 
+
 .site-nav {
   border-bottom: 1px solid var(--light-border-color);
   padding-bottom: calc(.3 * var(--line-height));
@@ -404,4 +410,9 @@ a:hover {
 .selected-filter {
   background-color: var(--box-background-color);
   border: 1px solid var(light-border-color);
+}
+
+.footnotes li, .footnotes p {
+  color: var(--light-font-color);
+  font-size: var(--small-font-size);
 }
