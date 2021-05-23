@@ -19,7 +19,7 @@ html {
   --extra-light-text-color: hsl(240, 1%, 45%);
   --light-border-color: hsl(0, 0%, 90%);
   --light-text-color: hsl(240, 1%, 35%);
-  --link-color: hsl(193, 100%, 30%);
+  --link-color: rgb(65, 110, 210);//hsl(193, 100%, 30%);
   --main-background-color: rgb(250, 250, 250);//hsl(0, 0%, 98%);
   --main-text-color: hsl(0, 0%, 10%);
   --underline-color: hsl(0, 0%, 50%);
@@ -328,9 +328,9 @@ figcaption {
 }
 
 a:hover {
-  background-color: var(--box-background-color);
-  color: var(--link-color);
-  text-decoration: none; // underline;
+  //background-color: var(--box-background-color);
+  //color: var(--link-color);
+  text-decoration: underline;
   //text-decoration-color: var(--link-color);
 }
 
