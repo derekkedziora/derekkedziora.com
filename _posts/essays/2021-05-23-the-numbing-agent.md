@@ -2,7 +2,7 @@
 title: The Numbing Agent
 description: 
 category: essay
-tags: 
+tags: techno-minimalism
 permalink: /blog/the-numbing-agent
 date: 2021-05-23 14:35
 ---
