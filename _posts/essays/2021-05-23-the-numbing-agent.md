@@ -9,7 +9,7 @@ date: 2021-05-23 14:35
 
 Life has a lot of boring and uncomfortable moments. Waiting in line, tossing and turning in bed at night, and random existential angst inevitably come around. 
 
-You can numb awaythese bits of awkwardness. Plop out your phone, check what’s happing on Twitter, look at selfies on Instagram. There’s never any need to be bored, nor have a minute of unstructured downtime. And if you do need an actual breather, [there’s an app for that](https://tricycle.org/trikedaily/headspace-netflix-review/).
+You can numb away these bits of awkwardness. Plop out your phone, check what’s happing on Twitter, look at selfies on Instagram. There’s never any need to be bored, nor have a minute of unstructured downtime. And if you do need an actual breather, [there’s an app for that](https://tricycle.org/trikedaily/headspace-netflix-review/).
 
 I’ve come to cherish snatches of boredom as essential for my well-being. The current science[^1] extols the bored, lazy and daydreamy state of the default mode network. It makes sense. Everything needs rest and the constant stimulation that being always connected brings is a [supernormal stimulus](https://en.wikipedia.org/wiki/Supernormal_stimulus). Getting a micro-sabbath is only part of the picture, though. 
 
