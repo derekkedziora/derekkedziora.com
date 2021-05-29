@@ -30,3 +30,5 @@ Just before the Basecamp drama broke, Jason Fried published [Staying out of it](
 > But I'm choosing to Stay Out of It. 
 
 My guess is that having to constantly make public professions of the “right” opinions&thinsp;—&thinsp;and being accused of genocide for staying out it&thinsp;—&thinsp;finally became too much.
+
+[When Scientific Orthodoxy Resembles Religious Dogma](https://www.scientificamerican.com/article/when-scientific-orthodoxy-resembles-religious-dogma/) from *Scientific American* also builds on the idea that the “right” opinions are the new religious dogma.
