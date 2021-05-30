@@ -3,16 +3,16 @@
 
 <head>
 
-    {%- if page.no-index -%}<meta name="robots" content="noindex" />{%- endif -%}
+    {% if page.no-index %}<meta name="robots" content="noindex" />{% endif %}
     <meta charset="UTF-8">
     <meta name=viewport content="width=device-width, initial-scale=1">
     <title>{{ page.title }}</title>
     <link rel='stylesheet' type='text/css' href='/css/main.css'>
-    {%- if page.syntax -%}<link rel='stylesheet' type='text/css' href='/css/code.css'>{%- endif -%}
-    <meta name="description" content="{%- if page.description -%}{{ page.description }}
-    {%- else -%}{{ site.description }}{%- endif -%}">
+    {% if page.syntax %}<link rel='stylesheet' type='text/css' href='/css/code.css'>{% endif %}
+    <meta name="description" content="{% if page.description %}{{ page.description }}
+    {% else %}{{ site.description }}{% endif %}">
     <meta name="author" content="Derek Kedziora">
-    <link rel="canonical" href="{%- if page.canonical -%}{{ site.url }}{{ page.canonical }}{%- else -%}{{ page.url | absolute_url }}{%- endif -%}">
+    <link rel="canonical" href="{% if page.canonical %}{{ site.url }}{{ page.canonical }}{% else %}{{ page.url | absolute_url }}{% endif %}">
     
     <!-- OG metadata --> 
 
@@ -48,7 +48,7 @@
     <meta name="yandex-verification" content="9f5ad4f35b68f877" />
     <meta name="pocket-site-verification" content="d39441cb7f07095015ea5739317c04" />
     <meta name="have-i-been-pwned-verification" content="7104755e9340c84dc109a8631199a889">
-    {%- endif -%}
+    {% endif %}
 
     <!-- Misc meta tags --> 
 
