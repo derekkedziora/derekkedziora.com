@@ -1,5 +1,5 @@
 ---
-title: Writing
+title: "Blog: Tags"
 description: "All of my blog posts sorted by tag"
 nav: blog
 permalink: /blog/tags

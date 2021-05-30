@@ -51,7 +51,6 @@ html {
   font-feature-settings: "kern" on;
   font-variant-ligatures: common-ligatures;
   font-variant-numeric: oldstyle-nums;
-  //hanging-punctuation: first last;
   height: 100%;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
@@ -148,7 +147,7 @@ footer {
   }
 }
 
-p + *, ul + *, ol + *, blockquote + *, figure + * {
+p + *, ul + *, ol + *, blockquote + *, figure + *, * + p {
   margin: var(--line-height) 0 0 0;
 }
 
@@ -291,6 +290,7 @@ figcaption {
   a {
     background-color: var(--box-background-color);
     border: 1px solid var(--light-border-color);
+    color: var(--light-text-color);
     flex-grow: .01;
     font-size: var(--body-font-size);
     font-variant-numeric: normal;

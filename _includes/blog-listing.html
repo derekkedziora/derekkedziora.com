@@ -29,15 +29,15 @@ the blog post listing.
 The first conditional makes the first now post link to /now instead of the post permalink.  
 {% endcomment %}
 
+
 {%- if post.category == "now" and site.categories.now[0] == post -%}
-<p><a href="/now" title="{{ post.title }}" class="blog-listing-link">{{ post.title }}<br>
-{% if display-post-type != false and post.category %}<span class="blog-listing-post-type">{{ post.category | replace: "-", " " }}&nbsp;|&nbsp;</span>{% endif %}<time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%B" }} {{prettyDateOfPost}}{{ ordinalEnding }}, {{ post.date | date: "%Y" }}</time></a></p>
+	{% assign LinkToPost = "/now" %}
+{% else %}
+	{% assign LinkToPost = post.url %}
+{% endif %}
 
-{%- else -%}
+<p><a href="{{LinkToPost}}" title="{{post.title}}" class="blog-listing-link">{{post.title}}<br>
+<time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%B" }} {{prettyDateOfPost}}{{ ordinalEnding }}, {{ post.date | date: "%Y" }}</time>{% if display-post-type != false and post.category %}<span class="blog-listing-post-type">&nbsp;|&nbsp;{{ post.category | replace: "-", " " }}</span>{% endif %}</a></p>
 
-<p><a href="{{ post.url }}" title="{{ post.title }}" class="blog-listing-link">{{ post.title }}<br>
-{% if display-post-type != false and post.category %}<span class="blog-listing-post-type">{{ post.category | replace: "-", " " }}&nbsp;|&nbsp;</span>{% endif %}<time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%B" }} {{prettyDateOfPost}}{{ ordinalEnding }}, {{ post.date | date: "%Y" }}</time></a></p>
-
-{%- endif -%}
 
 

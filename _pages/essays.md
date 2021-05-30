@@ -1,5 +1,5 @@
 ---
-title: Writing
+title: "Blog: Essays"
 description: "The list of all of my long-form blog posts."
 og-type: website
 permalink: /blog/essays

@@ -24,6 +24,7 @@ defaults:
       blogpost: true
       layout: post
       og-type: article
+      permalink: /blog/:title
     
   -    
     scope:
