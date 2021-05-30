@@ -1,5 +1,6 @@
 ---
 title: Writing
+description: "Updates about what I’ve been up to" 
 permalink: /blog/now
 nav: blog
 ---

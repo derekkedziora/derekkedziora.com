@@ -30,15 +30,13 @@ The first conditional makes the first now post link to /now instead of the post 
 {% endcomment %}
 
 {%- if post.category == "now" and site.categories.now[0] == post -%}
-<p>{% if display-post-type %}<span class="blog-listing-post-type">{{ post.category }}</span><br>{% endif %}
-<a href="/now" title="{{ post.title }}" class="blog-listing-link">{{ post.title }}</a><br>
-<time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%B" }} {{prettyDateOfPost}}{{ ordinalEnding }}, {{ post.date | date: "%Y" }}</time></p>
+<p><a href="/now" title="{{ post.title }}" class="blog-listing-link">{{ post.title }}<br>
+{% if display-post-type != false and post.category %}<span class="blog-listing-post-type">{{ post.category | replace: "-", " " }}&nbsp;|&nbsp;</span>{% endif %}<time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%B" }} {{prettyDateOfPost}}{{ ordinalEnding }}, {{ post.date | date: "%Y" }}</time></a></p>
 
 {%- else -%}
 
-<p>{% if display-post-type %}<span class="blog-listing-post-type">{{ post.category }}</span><br>{% endif %}
-<a href="{{ post.url }}" title="{{ post.title }}" class="blog-listing-link">{{ post.title }}</a><br>
-<time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%B" }} {{prettyDateOfPost}}{{ ordinalEnding }}, {{ post.date | date: "%Y" }}</time></p>
+<p><a href="{{ post.url }}" title="{{ post.title }}" class="blog-listing-link">{{ post.title }}<br>
+{% if display-post-type != false and post.category %}<span class="blog-listing-post-type">{{ post.category | replace: "-", " " }}&nbsp;|&nbsp;</span>{% endif %}<time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%B" }} {{prettyDateOfPost}}{{ ordinalEnding }}, {{ post.date | date: "%Y" }}</time></a></p>
 
 {%- endif -%}
 

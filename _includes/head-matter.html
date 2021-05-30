@@ -13,6 +13,7 @@
     {% else %}{{ site.description }}{% endif %}">
     <meta name="author" content="Derek Kedziora">
     <link rel="canonical" href="{% if page.canonical %}{{ site.url }}{{ page.canonical }}{% else %}{{ page.url | absolute_url }}{% endif %}">
+    <meta name="generator" content="Jekyll" />
     
     <!-- OG metadata --> 
 
@@ -50,9 +51,13 @@
     <meta name="have-i-been-pwned-verification" content="7104755e9340c84dc109a8631199a889">
     {% endif %}
 
-    <!-- Misc meta tags --> 
+    <!-- RSS feeds --> 
 
-    <link type="application/atom+xml" rel="alternate" href="https://derekkedziora.com/feed.xml" title="Derek’s Digital Garden" />
-    <meta name="generator" content="Jekyll" />
+    <link type="application/atom+xml" rel="alternate" href="https://derekkedziora.com/feed.xml" title="Derek Kedziora | All Posts" />
+    <link type="application/atom+xml" rel="alternate" href="https://derekkedziora.com/feed/essay.xml" title="Derek Kedziora | Essays" />
+    <link type="application/atom+xml" rel="alternate" href="https://derekkedziora.com/feed/note.xml" title="Derek Kedziora | Notes" />
+    <link type="application/atom+xml" rel="alternate" href="https://derekkedziora.com/feed/now.xml" title="Derek Kedziora | Now Updates" />
+    <link type="application/atom+xml" rel="alternate" href="https://derekkedziora.com/feed/tech-guide.xml" title="Derek Kedziora | Tech Guides" />
+    <link type="application/atom+xml" rel="alternate" href="https://derekkedziora.com/feed/english-guide.xml" title="Derek Kedziora | English Guides" />
 
 </head>

@@ -14,11 +14,7 @@ layout: post
 
 ## Previous Updates
 
+{% assign display-post-type = false %}
 {% for post in site.categories.now offset: 1 %}
-
 {%- include blog-listing.html -%}
-
 {% endfor %}
-
-
-

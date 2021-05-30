@@ -3,6 +3,7 @@
 <section>
 <h2>Other updates</h2>
 
+{% assign display-post-type = false %}
 {% for post in site.categories.now %}
 {% unless post.url == page.url %}
 {%- include blog-listing.html -%}
