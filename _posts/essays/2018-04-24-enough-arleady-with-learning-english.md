@@ -2,6 +2,7 @@
 title: Хватить учиться, английский не нужен
 description: "Английский тебе не нужен."
 tags: learning-english
+post-lang: ru
 permalink: /blog/enough-arleady-with-learning-english
 ---
 

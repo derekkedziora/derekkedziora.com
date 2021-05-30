@@ -23,6 +23,7 @@ defaults:
     values:
       blogpost: true
       layout: post
+      og-type: article
     
   -    
     scope:

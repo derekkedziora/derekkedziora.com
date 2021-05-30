@@ -1,16 +1,16 @@
 ---
 ---
 
-$body-typeface: "Iowan Old Style", Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", serif;
-$heading-typeface: Seravek, Verdana, sans-serif; //"Iowan Old Style", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$body-typeface: "Iowan Old Style", Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+$heading-typeface: Seravek, Verdana, sans-serif;
 $mono-typeface: Menlo, Monaco, monospace;
 $text-width: 40.5em; // 650px
 
 :root {
-  --body-font-size: 1.25rem; // 20px
+  --body-font-size: 1.2rem; // 20px
   --line-height: 1.75rem; // 28px
   --h1-font-size: 1.875rem; // 30px
-  --h2-font-size: 1.125rem; //20px 
+  --h2-font-size: 1.5rem; //1.125rem; //20px 
   --small-font-size: 1rem; //16px
 }
 
@@ -108,7 +108,7 @@ header {
   max-width: $text-width;
   width: 100%;
   h1 {
-    font-family: $heading-typeface;
+    //font-family: $heading-typeface;
     font-size: var(--h1-font-size);
     font-variant-numeric: normal;
     //letter-spacing: -.01em; 
@@ -153,14 +153,14 @@ p + *, ul + *, ol + *, blockquote + *, figure + * {
 }
 
 h2, h3 {
-  font-family: $heading-typeface;
+  //font-family: $heading-typeface;
   font-size: var(--h2-font-size);
   font-variant-numeric: normal;
-  letter-spacing: .075em;
+  //letter-spacing: .075em;
   line-height: 1.2;
   margin: 0 0 calc(var(--line-height) * 1) 0;
   padding-top: calc(var(--line-height) * 2); 
-  text-transform: uppercase;
+  //text-transform: uppercase;
 }
 
 ul, ol {
@@ -267,7 +267,7 @@ figcaption {
 .blog-listing-link {
   color: var(--main-text-color);
   font-variant-numeric: normal;
-  font-weight: bold;
+  //font-weight: bold;
   text-decoration: none;
 }
 

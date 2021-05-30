@@ -1,9 +1,4 @@
-<!DOCTYPE html>
-<html lang="en-US">
-
-<head>
-  {%- include head-matter.html -%}
-</head>
+{%- include head-matter.html -%}
 
 <body>
 {%- include site-nav.html -%}
@@ -18,6 +13,7 @@
 <h2>Latest Posts</h2>
 
 {%- assign i = 0 -%}
+{% assign display-post-type = true %}
 
 {%- for post in site.posts -%}
 	{%- unless post.categories contains "unlisted" -%}
