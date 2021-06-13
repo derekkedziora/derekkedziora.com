@@ -1,6 +1,6 @@
 ---
 title: A Covid Memoir 
-description: 
+description: A journey through fear, skepticism and dead ends
 category: 
  - rss-club 
  - unlisted
