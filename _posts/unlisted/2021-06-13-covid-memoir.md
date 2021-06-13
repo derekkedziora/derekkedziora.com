@@ -1,9 +1,7 @@
 ---
 title: A Covid Memoir 
 description: A journey through fear, skepticism and dead ends
-category: 
- - rss-club 
- - unlisted
+category: rss-club 
 tags: 
 permalink: /blog/covid-memoir
 date: 2021-06-13 10:26
