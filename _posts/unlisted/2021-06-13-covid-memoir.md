@@ -1,7 +1,9 @@
 ---
 title: A Covid Memoir 
 description: 
-category: rss-club unlisted
+category: 
+ - rss-club 
+ - unlisted
 tags: 
 permalink: /blog/covid-memoir
 date: 2021-06-13 10:26
