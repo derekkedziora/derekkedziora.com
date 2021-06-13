@@ -253,6 +253,10 @@ figcaption {
   li + li {
     padding: calc(.25 * var(--line-height)) 0 0 0; 
   }
+  a {
+    color: var(--main-text-color);
+    text-decoration: underline;
+  }
 }
 
 

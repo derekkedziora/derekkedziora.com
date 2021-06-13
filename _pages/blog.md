@@ -8,7 +8,7 @@ nav: blog
 
 {% assign display-post-type = true %}
 {% for post in site.posts %}
-{%- unless post.categories contains "unlisted" or post.categories contains "rss-club" -%}
+{%- unless post.categories contains "rss-club" -%}
 {% include blog-listing.html %}
 {% endunless %}
 {% endfor %}

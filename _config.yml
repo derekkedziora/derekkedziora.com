@@ -46,6 +46,8 @@ collections:
     output: true
   no-index:
     output: true
+  unlisted:
+    output: true
 
 plugins:
   - jekyll-feed

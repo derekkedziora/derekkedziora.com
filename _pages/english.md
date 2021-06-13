@@ -1,5 +1,5 @@
 ---
-title: Learning English 
+title: English Guides
 description: "My blog posts and study guides for learning English."
 permalink: /english
 ---
@@ -13,7 +13,5 @@ My study guides are short lessons for common gotchas most English learners face.
 ## Study Guides
 
 {% for post in site.categories.english-guide %}
-
-{% include blog-listing.html %}
-
+[{{post.title}}]({{post.url}})
 {% endfor %}

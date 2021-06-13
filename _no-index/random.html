@@ -6,7 +6,6 @@ layout: page
 ---
 
 {%- assign totalNumberOfPosts = site.posts | size -%}
-{%- assign NumberOfUnlistedPosts = site.categories.unlisted | size -%}
 {%- assign i = totalNumberOfPosts | minus: NumberOfUnlistedPosts -%}
 
 <script>
@@ -14,10 +13,8 @@ layout: page
 
   const allPosts = 
     [{%- for post in site.posts -%}
-    {%- unless post.categories contains "unlisted" -%}
       {%- assign i = i | minus: 1 -%}
       "{{ post.url }}"{%- unless i == 0 -%},{%- endunless -%}
-    {%- endunless -%}
     {%- endfor -%}];
 
   function linkToRandomBlogPost() {

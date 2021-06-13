@@ -89,10 +89,9 @@ It's not common to use *should have* in the past as an inference. Instead, *shou
 
 For a past inference, stick with *must have*. 
 
-<aside markdown="1">
-### Still stuck on should? 
-See my guide to [should have vs. must have](/english/should-have-vs-must-have) and [using should politely](/english/should).
-</aside>
+<p class="aside" markdown="1">
+**Still stuck on should?**
+See my guide to [should have vs. must have](/english/should-have-vs-must-have) and [using should politely](/english/should).</p>
 
 ## Decreasing probability 
 
