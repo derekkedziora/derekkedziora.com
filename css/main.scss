@@ -70,7 +70,7 @@ body {
   padding: 0 7.5%;
 }
 
-p, li {
+p, li, details, summary {
   font-size: var(--body-font-size);
   line-height: 1.4; // 28px 
 }
@@ -147,7 +147,7 @@ footer {
   }
 }
 
-p + *, ul + *, ol + *, blockquote + *, figure + *, * + p {
+p + *, ul + *, ol + *, blockquote + *, figure + *, * + p, summary + ul {
   margin: var(--line-height) 0 0 0;
 }
 

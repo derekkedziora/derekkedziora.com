@@ -4,4 +4,10 @@ permalink: /dev
 layout: page
 ---
 
-{{site.categories.now[0]}}
+<details>
+    <summary>Nielsen Norman Group UX Certification (in progress)</summary>
+    <ul>
+    	<li>Information Architecture</li>
+    	<li>Webpage UX Design</li>
+    </ul>
+</details>
