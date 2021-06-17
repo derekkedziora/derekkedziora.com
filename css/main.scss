@@ -432,7 +432,10 @@ a:visited {
   font-size: var(--body-font-size);
   width: 400px;
   max-width: 50%;
-  -webkit-appearance: none;
+}
+
+.form-control::placeholder {
+	padding-left: .5em;
 }
 
 .btn-default {
