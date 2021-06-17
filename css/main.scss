@@ -435,7 +435,7 @@ a:visited {
   -webkit-appearance: none;
 }
 
-.form-control::placenolder {
+.form-control::placeholder {
 	padding-left: .5em;
 }
 
@@ -446,5 +446,5 @@ a:visited {
   font-family: $body-typeface;
   font-size: var(--body-font-size);
   height: calc( 1.5 * var(--line-height));
-  padding: 0 1em;
+  padding: 0 .5em;
 }
