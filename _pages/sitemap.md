@@ -4,9 +4,22 @@ description: An outline of all the stunning pages around my site.
 permalink: /sitemap
 ---
 
-[Home Page](/)
+<form name="search" action="//duckduckgo.com/" id="search">
+    <div class="form-group">
+        <div class="input-group">
+            <input type="search" class="form-control" placeholder="Search…" name="q">
+            <input type="hidden" value="derekkedziora.com" name="sites">
+            <span class="input-group-btn">
+                <button class="btn btn-default" type="submit">Search</button>
+            </span>
+        </div>
+    </div>
+</form>
 
-[Change Log](/change-log)
+
+
+
+[Home Page](/)
 
 [RSS](/feed.xml)
 

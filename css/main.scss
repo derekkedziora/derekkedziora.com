@@ -377,9 +377,10 @@ a:visited {
 }
 
 .nav-current-page {
-  border-bottom: 1px solid var(--extra-light-text-color);
+  //border-bottom: 1px solid var(--extra-light-text-color);
   color: var(--extra-light-text-color);
   text-decoration-color: var(--extra-light-text-color);
+  text-decoration: underline;
 }
 
 .about-picture {
@@ -419,4 +420,27 @@ a:visited {
 .footnotes li, .footnotes p {
   color: var(--light-font-color);
   font-size: var(--small-font-size);
+}
+
+
+.form-control {
+  background-color: var(--box-background-color);
+  border: 1px solid var(--light-border-color);
+  color: var(--main-text-color);
+  height: calc( 1.5 * var(--line-height));
+  font-family: $body-typeface;
+  font-size: var(--body-font-size);
+  width: 400px;
+  max-width: 50%;
+  -webkit-appearance: none;
+}
+
+.btn-default {
+  background-color: var(--box-background-color);
+  border: 1px solid var(--light-border-color);
+  color: var(--main-text-color);
+  font-family: $body-typeface;
+  font-size: var(--body-font-size);
+  height: calc( 1.5 * var(--line-height));
+  padding: 0 1em;
 }
