@@ -1,11 +1,13 @@
 ---
-title: "Blog: Tags"
+title: "Tags"
 description: "All of my blog posts sorted by tag"
 nav: blog
 permalink: /blog/tags
 ---
 
-{%- assign sortedTags = site.tags | sort -%}
+{% include search.html %}
+
+{% assign sortedTags = site.tags | sort %}
 
 <div class="tag-list">
 {% for tag in sortedTags %}

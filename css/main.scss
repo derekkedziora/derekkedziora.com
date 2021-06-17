@@ -289,7 +289,7 @@ figcaption {
   border: none;
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 100%;
+  margin: var(--line-height) 0 100% 0;
   padding: 0;
   a {
     background-color: var(--box-background-color);
@@ -435,7 +435,10 @@ a:visited {
   font-family: $body-typeface;
   font-size: var(--body-font-size);
   min-width: 50%;
-  //-webkit-appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
 }
 
 .form-control::placeholder {
