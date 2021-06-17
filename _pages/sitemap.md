@@ -5,15 +5,9 @@ permalink: /sitemap
 ---
 
 <form name="search" action="//duckduckgo.com/" id="search">
-    <div class="form-group">
-        <div class="input-group">
-            <input type="search" class="form-control" placeholder="Search…" name="q">
-            <input type="hidden" value="derekkedziora.com" name="sites">
-            <span class="input-group-btn">
-                <button class="btn btn-default" type="submit">Search</button>
-            </span>
-        </div>
-    </div>
+	<input type="search" class="form-control" placeholder="Search…" name="q">
+	<input type="hidden" value="derekkedziora.com" name="sites">
+	<button class="btn btn-default" type="submit">Search</button>
 </form>
 
 

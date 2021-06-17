@@ -422,21 +422,24 @@ a:visited {
   font-size: var(--small-font-size);
 }
 
+#search {
+  display: flex;
+}
 
 .form-control {
   background-color: var(--box-background-color);
   border: 1px solid var(--light-border-color);
   color: var(--main-text-color);
   height: calc( 1.5 * var(--line-height));
+  flex: 5 1 auto;
   font-family: $body-typeface;
   font-size: var(--body-font-size);
-  width: 400px;
-  max-width: 50%;
-  -webkit-appearance: none;
+  min-width: 50%;
+  //-webkit-appearance: none;
 }
 
 .form-control::placeholder {
-	padding-left: .5em;
+	color: var(--light-text-color);
 }
 
 .btn-default {
@@ -446,5 +449,6 @@ a:visited {
   font-family: $body-typeface;
   font-size: var(--body-font-size);
   height: calc( 1.5 * var(--line-height));
+  margin-left: .5em;
   padding: 0 .5em;
 }
