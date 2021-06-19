@@ -1,7 +1,7 @@
 ---
 ---
 
-$body-typeface: "Iowan Old Style", Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+$body-typeface: Seravek, Helvetica, Ariel, sans-serif; //"Iowan Old Style", Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
 $heading-typeface: Seravek, Verdana, sans-serif;
 $mono-typeface: Menlo, Monaco, monospace;
 $text-width: 40.5em; // 650px
@@ -40,7 +40,7 @@ html {
     letter-spacing: .005em;
   }
   img {
-    filter: brightness(.75) contrast(1.2);
+    //filter: brightness(.75) contrast(1.2);
   }
 }
 
@@ -76,7 +76,7 @@ p, li, details, summary {
 }
 
 nav {
-  letter-spacing: -.01em;
+  letter-spacing: -.03em;
   line-height: 1.2;
   a {
     color: var(--light-text-color);
@@ -136,13 +136,14 @@ footer {
   display: flex;
   flex-wrap: wrap;
   font-size: 1rem;
+  letter-spacing: -.03em;
   margin: calc(2.5 * var(--line-height)) 0 0 0;
   max-width: $text-width;
   padding: 1em 0 calc(3 * var(--line-height)) 0;
   width: 100%;
   a {
     color: var(--light-text-color);
-    margin-right: 5%;
+    margin-right: 4.9%;
     text-decoration: none;
   }
 }
@@ -254,8 +255,8 @@ figcaption {
     padding: calc(.25 * var(--line-height)) 0 0 0; 
   }
   a {
-    color: var(--main-text-color);
-    text-decoration: underline  ;
+    //color: var(--main-text-color);
+    //text-decoration: underline  ;
   }
 }
 
@@ -289,7 +290,6 @@ figcaption {
   border: none;
   display: flex;
   flex-wrap: wrap;
-  margin: var(--line-height) 0 100% 0;
   padding: 0;
   a {
     background-color: var(--box-background-color);
@@ -333,7 +333,7 @@ figcaption {
 
 a:hover {
   //background-color: var(--box-background-color);
-  //color: var(--link-color);
+  color: var(--link-color);
   text-decoration: underline;
   //text-decoration-color: var(--link-color);
 }
@@ -379,8 +379,9 @@ a:visited {
 .nav-current-page {
   //border-bottom: 1px solid var(--extra-light-text-color);
   color: var(--extra-light-text-color);
-  text-decoration-color: var(--extra-light-text-color);
   text-decoration: underline;
+  text-decoration-color: rgb(235, 161, 135);//var(--extra-light-text-color);
+  text-decoration-thickness: 2px;
 }
 
 .about-picture {
@@ -388,29 +389,6 @@ a:visited {
   margin: 0 0 5% 5%; 
   width: clamp(100px, 200px, 50%);
 } 
-
-.stream-article {
-  border-top: 1px solid var(--underline-color);
-  margin: 0 0 3em 0;
-}
-
-.stream-article:first-of-type {
-  border: none;
-}
-
-.stream-title {
-  font-family: $body-typeface;
-  font-size: var(--body-font-size);
-  letter-spacing: 0;
-  line-height: 1.2;
-  margin: 0 0 calc(var(--line-height) * .25) 0;
-  padding-top: 3em;
-  text-transform: none;
-}
-
-.stream-date {
-  margin: calc(.75 * var(--line-height)) 0 0 0; 
-}
 
 .selected-filter {
   background-color: var(--box-background-color);
@@ -433,7 +411,7 @@ a:visited {
   height: calc( 1.5 * var(--line-height));
   flex: 5 1 auto;
   font-family: $body-typeface;
-  font-size: var(--body-font-size);
+  font-size: var(--small-font-size);
   min-width: 50%;
   padding-left: .5em;
   -webkit-appearance: none;

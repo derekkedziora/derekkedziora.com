@@ -1,0 +1,11 @@
+---
+title: "Blog: Tech Guides"
+description: "The list of all of my tech guides."
+og-type: website
+permalink: /blog/category/tech-guides
+nav: blog
+---
+
+{% for post in site.categories.tech-guide %}
+{%- include blog-listing.html -%}
+{% endfor %}

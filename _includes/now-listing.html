@@ -1,12 +1,31 @@
-<p class="aside">Want to build your own dynamic now page? Here's <a href="/blog/dynamic-now-page">how mine works</a>.</p>
+<p class="aside">Want to build your own dynamic now page? <a href="/blog/dynamic-now-page">Read how mine works</a>.</p>
 
 <section>
+{% if page.url == "/now" %}
+<h2>Previous updates</h2>
+{% else %}
 <h2>Other updates</h2>
+{% endif %}
 
-{% assign display-post-type = false %}
-{% for post in site.categories.now %}
-{% unless post.url == page.url %}
-{%- include blog-listing.html -%}
-{% endunless %}
-{% endfor %}
+
+{% assign i = 0 %}
+{% if page.url == "/now" %}
+	{% for post in site.categories.now offset: 1 limit:5 %}
+		{%- include blog-listing.html -%}
+		{% assign i = i | plus: 1 %}
+	{% endfor %}
+{% else %}
+	{% for post in site.categories.now %}
+		{% if i == 5 %}{% break %}{% endif %}
+		{% unless post.url == page.url %}
+			{%- include blog-listing.html -%}
+			{% assign i = i | plus: 1 %}
+		{% endunless %}
+	{% endfor %}
+{% endif %}
+
+{% if i == 5 %}
+<p><a href="/blog/category/now" class="internal-link">View all updates&nbsp;&rarr;</a></p>
+{% endif %}
+
 </section>

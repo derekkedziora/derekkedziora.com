@@ -25,6 +25,7 @@ the blog post listing.
 	{%- assign prettyDateOfPost = dateOfPost -%}
 {%- endif -%}
 
+
 {% comment %}
 The conditional makes the first now post link to /now instead of the post permalink.  
 {% endcomment %}
@@ -36,6 +37,6 @@ The conditional makes the first now post link to /now instead of the post permal
 	{% assign LinkToPost = post.url %}
 {% endif %}
 
-<p><a href="{{LinkToPost}}" title="{{post.title}}" class="blog-listing-link">{{post.title}}<br>
+<p><a href="{{LinkToPost}}" title="{{post.title}}" class="blog-listing-link">{{post.title}}<br></a>
 
-<time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%B" }} {{prettyDateOfPost}}{{ ordinalEnding }}, {{ post.date | date: "%Y" }}</time>{% unless display-post-type == false or post.category == nil %}<span class="blog-listing-post-type">&nbsp;|&nbsp;{{ post.category | replace: "-", " " }}</span>{% endunless %}</a></p>
+<time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%B" }} {{prettyDateOfPost}}{{ ordinalEnding }}, {{ post.date | date: "%Y" }}</time><!--{% unless display-post-type == false or post.category == nil %}<span class="blog-listing-post-type">&nbsp;|&nbsp;{{ post.category | replace: "-", " " }}</span>{% endunless %}--></p>
