@@ -1,5 +1,5 @@
 ---
-title: "Tags & Taxonomy"
+title: "Tags & Categories"
 description: "All of my blog posts sorted by tag"
 nav: blog
 permalink: /blog/tags
@@ -7,7 +7,7 @@ permalink: /blog/tags
 
 {% include search.html %}
 
-<h2>Post types</h2>
+<h2 id="categories">Categories</h2>
 <div class="tag-list">
 <a href="/blog/category/essays">Essays ({{ site.categories.essay | size }})</a>
 <a href="/blog/category/notes">Notes ({{ site.categories.note | size }})</a>
@@ -16,7 +16,7 @@ permalink: /blog/tags
 <a href="/english">English guides ({{ site.categories.english-guide | size }})</a>
 </div>
 
-<h2>Tags</h2>
+<h2 id="tags">Tags</h2>
 
 {% assign sortedTags = site.tags | sort %}
 

@@ -6,7 +6,7 @@
 {%- include site-nav.html -%}
 
 <main>
-{%- unless page.url == "/stream" -%}<article>{%- endunless -%}
+{%- unless page.og-type == "website" -%}<article>{%- endunless -%}
 
 <header>
 	<h1>{{ page.title }}</h1>
@@ -19,7 +19,7 @@
 
 {{ content }}
 
-</article>
+{%- unless page.og-type == "website" -%}</article>{%- endunless -%}
 </main>
 
 {%- include footer.html -%}

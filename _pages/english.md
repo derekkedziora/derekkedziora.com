@@ -1,17 +1,16 @@
 ---
-title: English Guides
+title: Learning English
 description: "My blog posts and study guides for learning English."
 permalink: /english
+display-post-date: false
 ---
 
-Start with my [guide to studying English](/blog/how-to-study-english) for general tips on how to learn a language.
+Start with my [guide to studying English](/blog/how-to-study-english) for general tips on how to learn a language and my [post in Russian](/blog/enough-arleady-with-learning-english) questioning many about learning English
 
-I wrote a [post in Russian](/blog/enough-arleady-with-learning-english) questioning many of the assumptions people have about learning English
+My study guides are short lessons for common problems most English learners face.
 
-My study guides are short lessons for common gotchas most English learners face.
-
-## Study Guides
+## Study guides
 
 {% for post in site.categories.english-guide %}
-[{{post.title}}]({{post.url}})
+{% include blog-listing.html %}
 {% endfor %}

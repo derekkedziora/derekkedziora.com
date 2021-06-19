@@ -1,33 +1,39 @@
 ---
 title: Sitemap
 description: An outline of all the stunning pages around my site. 
+og-type: website
 permalink: /sitemap
 ---
 
 {% include search.html %}
 
-[Home Page](/)
 
-[RSS](/feed.xml)
+<div class="sitemap" markdown="1">
 
+## [Home Page](/)
 
-## [Blog](/blog)
-
-- [Tags](/blog/tags)
-- [Random Post](/blog/random)
-- [English Guides](/english)
-
+- [Learning English](/english)
+- [Sitemap](/sitemap)
 
 ## [About](/about)
 
 - [Now](/now)
 - [Portfolio](/portfolio)
 - [CV](/cv)
+- [RSS](/about#rss)
+- [Contact](/about#contact)
 
+
+## [Blog](/blog)
+
+- [Tags & Categories](/blog/tags)
+- [Random Post](/blog/random)
+
+</div>
 
 
 <!-- ## Secret Pages! 
 
-[RSS Club](/rss-club)
+[RSS Club](https://derekkedziora.com/rss-club)
 
-[Birthdays by Year](/bday) --> 
+--> 

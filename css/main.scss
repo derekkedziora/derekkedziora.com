@@ -168,7 +168,7 @@ ul, ol {
   padding-left: var(--line-height);
 }
 
-li + li {
+li + li  {
   margin: calc(.5 * var(--line-height)) 0 0 0;
 }
 
@@ -389,6 +389,23 @@ a:visited {
   margin: 0 0 5% 5%; 
   width: clamp(100px, 200px, 50%);
 } 
+
+.sitemap {
+  margin-top: var(--line-height);
+}
+
+.sitemap a {
+  color: var(--main-text-color);
+}
+
+.sitemap a:hover {
+  color: var(--link-color);
+}
+
+.sitemap ul {
+  list-style-type: none;
+  padding-left: 0;
+}
 
 .selected-filter {
   background-color: var(--box-background-color);
