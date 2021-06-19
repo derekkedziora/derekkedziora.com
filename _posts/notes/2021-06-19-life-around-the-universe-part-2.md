@@ -7,7 +7,7 @@ permalink: /blog/life-around-the-universe-part-2
 date: 2021-06-19 21:35
 ---
 
-I’ve previously written about [life around the universe](/blog/other-civilizations): there are a lot of places and times throughout the universe that could support life. Furthermore, life doesn’t have to be industrial society to be “advanced”. 
+I’ve previously written about [life around the universe](/blog/other-civilizations)&thinsp;—&thinsp;there are a lot of places and times throughout the universe that could support life. Furthermore, life doesn’t have to be industrial society to be “advanced”. 
 
 Some additional links and thoughts on the matter: 
 
