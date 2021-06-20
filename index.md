@@ -9,7 +9,7 @@ display-post-type: true
 👋&ensp;Hey there. I’m Derek, a UX writer and content strategist based in Kyiv, Ukraine.  
 <a href="/about" class="internal-link">More about me&nbsp;&rarr;</a>
 
-🌿&ensp;Welcome to my digital garden, a less than tidy collection of my writing.   
+🌿&ensp;Welcome to my digital garden, my space to write, think aloud and tinker.   
 <a href="/blog" class="internal-link">Go to my writing&nbsp;&rarr;</a>
 
 <!--
