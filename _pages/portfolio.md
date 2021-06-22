@@ -2,9 +2,12 @@
 title: Portfolio
 description: "Highlights of my work as writer in the tech industry."
 permalink: /portfolio
+nav: portfolio
 ---
 
-I’ve been writing in the tech industry since 2017: mostly UX writing, but with a bit of marketing and longer form blogging. 
+I’ve been writing in the tech industry since 2018: mostly UX writing, but with a bit of marketing and longer form blogging. 
+
+Currently, I lead a team of UX writers in Kyiv and Vilnius and write for the Wix Community apps. I’m also working on UX certification from the Nielsen Norman Group. View my CV:[[PDF]](/cv)
 
 ## UX  Writing
 
@@ -23,5 +26,7 @@ From Privacy to Visibility&nbsp;[[PDF]](/static/portfolio/privacy-to-visibility.
 UX Writing for Wireframes<br>
 [[video]](https://www.youtube.com/watch?v=yJJ1wTKjFOU) [[slides]](/static/portfolio/ux-salon-2020-words.pdf) [[conference]](http://words2020.uxsalon.com/speakers/derek-kedziora/)
 
+
+<!--
 Do Not Lean Podcast<br>
-[[SoundCloud]](https://soundcloud.com/do_not_lean/derek-kedziora) [[Apple]](https://apple.co/2NHowW5) [[Spotify]](https://spoti.fi/2YNqRoz)
+[[SoundCloud]](https://soundcloud.com/do_not_lean/derek-kedziora) [[Apple]](https://apple.co/2NHowW5) [[Spotify]](https://spoti.fi/2YNqRoz)-->

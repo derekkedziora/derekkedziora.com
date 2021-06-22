@@ -5,11 +5,6 @@
 {%- unless page.url == "/portfolio" -%}<a href="/portfolio" title="Portfolio">Portfolio</a>{%- endunless -%}
 {%- endif -%}
 
-{%- if page.nav == "portfolio" -%}
-<a href="/" title="Derek Kedziora" rel="author" class="author-link">Derek Kedziora</a>
-<a href="/cv" title="My CV">Résumé</a>
-{%- endif -%}
-
 {%- if page.nav == "blog" -%}
 
 {%- if page.url == "/blog" -%}<span class="nav-current-page">All</span>
@@ -19,4 +14,8 @@
 {%- else -%}<a href="/blog/tags" title="Tags">Tags</a>{%- endif -%}
 
 <a href="/blog/random" title="Random">Random</a>
+{%- endif -%}
+
+{%- if page.nav == "portfolio" -%}
+<a href="/cv" title="My CV">CV [PDF]</a>
 {%- endif -%}
