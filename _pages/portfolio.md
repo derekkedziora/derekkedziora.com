@@ -7,7 +7,7 @@ nav: portfolio
 
 I’ve been writing in the tech industry since 2018: mostly UX writing, but with a bit of marketing and longer form blogging. 
 
-Currently, I lead a team of UX writers in Kyiv and Vilnius and write for the Wix Community apps. I’m also working on UX certification from the Nielsen Norman Group. View my CV:[[PDF]](/cv)
+Currently, I lead a team of UX writers in Kyiv and Vilnius and write for the Wix Community apps. I’m also working on UX certification from the Nielsen Norman Group.
 
 ## UX  Writing
 
