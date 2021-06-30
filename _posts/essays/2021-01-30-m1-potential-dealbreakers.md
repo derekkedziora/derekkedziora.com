@@ -28,6 +28,3 @@ It turns out there’s a bug that breaks all third-party iOS apps when you sync 
 I wonder if Apple testers even attempted this flow. There’s the assumption that people will only use Apple Music and backup their phones via iCloud. And it’s not in Apple’s interest to fix this any time soon. 
 
 I still like my M1. But it feels ever so lightly less like my own computer than a device rented from Apple’s marketing department. It remains to be seen whether these bugs are going to ironed out or the beginning of an even stronger push to make Macs into iPads and Apple Subscription devices. 
-
-
-

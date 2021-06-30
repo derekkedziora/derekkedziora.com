@@ -3,6 +3,7 @@ title: "Bandcamp vs. Spotify"
 description: "Niche and profitable beats a product for the masses"
 permalink: /blog/the-bandcamp-model 
 time: "2020-08-23 20:15"
+layout: post
 --- 
 
 NPR has a great piece comparing Spotify to Bandcamp: [A Tale of Two Ecosystems](https://www.npr.org/2020/08/19/903547253/a-tale-of-two-ecosystems-on-bandcamp-spotify-and-the-wide-open-future). 
